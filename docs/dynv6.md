@@ -8,16 +8,19 @@
 {
   "settings": [
     {
-      "provider": "dynv6",
-      "domain": "domain.com",
-      "token": "token",
-      "ip_version": "ipv4",
-      "ipv6_suffix": ""
+      "provider":"dynv6",
+      "domain":"dns.navy",
+      "host":"yourhosthere",
+      "token":"tokenxxxxxxxxx",
+      "ip_version":"ipv4",
+      "ipv6_suffix":""
     }
   ]
 }
-```
 
+
+```
+this is fix 9.11.2024 - working for dynv6
 ### Compulsory parameters
 
 - `"domain"` is the domain to update. It can be `example.com` (root domain) or `sub.example.com` (subdomain of `example.com`).
